@@ -1,0 +1,8 @@
+{
+  "name": "MindMate",
+  "description": "An educational platform designed to discover student learning gaps, customize materials across progressive difficulty levels (ELI5, High School, University), and generate actionable teacher advice using Gemini AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
