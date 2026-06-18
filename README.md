@@ -1,20 +1,59 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# MindMate AI
 
-# Run and deploy your AI Studio app
+An AI-powered learning and wellness platform for students and teachers, built with React, TypeScript, and the Gemini API.
 
-This contains everything you need to run your app locally.
+🌐 **Live Demo:** [mind-mate-ai-nine.vercel.app](https://mind-mate-ai-nine.vercel.app)
 
-View your app in AI Studio: https://ai.studio/apps/b146443d-4596-46c9-9604-5b83285c23c6
+---
 
-## Run Locally
+## Features
 
-**Prerequisites:**  Node.js
+- **Students** — Access courses, view learning materials, and get AI-generated breakdowns of content
+- **Teachers** — Manage courses, monitor student progress, and view analytics via a dedicated dashboard
+- **AI-powered** — Gemini API integration for intelligent content breakdowns and assistance
+- **Modern UI** — Smooth animations, 3D visuals, and a clean responsive interface
 
+## Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Frontend:** React 19, TypeScript, Tailwind CSS, Vite
+- **Backend:** Express, Node.js
+- **AI:** Google Gemini API (`@google/genai`)
+- **3D / Animation:** Three.js, React Three Fiber, Motion
+- **State Management:** Zustand
+
+## Getting Started Locally
+
+### Prerequisites
+- Node.js
+- A Gemini API key (get one free at [aistudio.google.com](https://aistudio.google.com))
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/JeremySaaj/MindMate-AI.git
+   cd MindMate-AI
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Create a `.env` file and add your Gemini API key:
+   ```
+   GEMINI_API_KEY=your_api_key_here
+   ```
+
+4. Run the app:
+   ```bash
+   npm run dev
+   ```
+
+## Deployment
+
+This project is deployed on [Vercel](https://vercel.com). To deploy your own instance, import the repository into Vercel and add `GEMINI_API_KEY` as an environment variable.
+
+## License
+
+Apache 2.0
